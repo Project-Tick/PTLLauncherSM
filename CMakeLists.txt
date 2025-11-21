@@ -4,7 +4,7 @@ find_package(Java 1.7 REQUIRED COMPONENTS Development)
 set(JARS_DEST_DIR "${CMAKE_INSTALL_PREFIX}/jars")
 
 include(UseJava)
-set(CMAKE_JAVA_JAR_ENTRY_POINT tr.org.yongdohyun.projtlauncher.EntryPoint)
+set(CMAKE_JAVA_JAR_ENTRY_POINT tr.org.yongdohyun.projtlauncher.normal.EntryPoint)
 set(CMAKE_JAVA_COMPILE_FLAGS -target 7 -source 7)
 
 set(SRC
