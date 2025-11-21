@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\YongDo-Hyun\Desktop\Project-Tick\ProjT-Launcher\libraries\launcher\build\CMakeFiles\8439b721c88bb6d69ae0322ec78442f2\java_compiled_NewLaunchLegacy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\YongDo-Hyun\Desktop\Project-Tick\ProjT-Launcher\libraries\launcher\build\CMakeFiles\8439b721c88bb6d69ae0322ec78442f2\java_class_filelist.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\YongDo-Hyun\Desktop\Project-Tick\ProjT-Launcher\libraries\launcher\build\CMakeFiles\af4f32e98feb98673df79ef436153cee\NewLaunchLegacy.jar.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\YongDo-Hyun\Desktop\Project-Tick\ProjT-Launcher\libraries\launcher\build\CMakeFiles\9bb79e800b61974c2240ce2a1f159b44\NewLaunchLegacy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\YongDo-Hyun\Desktop\Project-Tick\ProjT-Launcher\libraries\launcher\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\YongDo-Hyun\Desktop\Project-Tick\ProjT-Launcher\libraries\launcher\build\CMakeFiles\NewLaunchLegacy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1D8FA54C-F42C-3569-B612-A8705FB4627B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

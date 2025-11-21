@@ -1,0 +1,66 @@
+^C:\USERS\YONGDO-HYUN\DESKTOP\PROJECT-TICK\PROJT-LAUNCHER\LIBRARIES\LAUNCHER\BUILD\CMAKEFILES\8439B721C88BB6D69AE0322EC78442F2\JAVA_COMPILED_NEWLAUNCHLEGACY.RULE
+setlocal
+cd C:\Users\YongDo-Hyun\Desktop\Project-Tick\ProjT-Launcher\libraries\launcher
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_JAVA_CLASS_OUTPUT_PATH=C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build/CMakeFiles/NewLaunchLegacy.dir -DCMAKE_JAR_CLASSES_PREFIX= -P "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/UseJava/ClearClassFiles.cmake" --log-level STATUS
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Eclipse Adoptium\jdk-11.0.29.7-hotspot\bin\javac.exe" -target 7 -source 7 -classpath "";"C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher";"C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build";"C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build/NewLaunch.jar" -d C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build/CMakeFiles/NewLaunchLegacy.dir @C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build/CMakeFiles/NewLaunchLegacy.dir/java_sources
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build/CMakeFiles/NewLaunchLegacy.dir/java_compiled_NewLaunchLegacy
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YONGDO-HYUN\DESKTOP\PROJECT-TICK\PROJT-LAUNCHER\LIBRARIES\LAUNCHER\BUILD\CMAKEFILES\8439B721C88BB6D69AE0322EC78442F2\JAVA_CLASS_FILELIST.RULE
+setlocal
+cd C:\Users\YongDo-Hyun\Desktop\Project-Tick\ProjT-Launcher\libraries\launcher
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_JAVA_CLASS_OUTPUT_PATH=C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build/CMakeFiles/NewLaunchLegacy.dir -DCMAKE_JAR_CLASSES_PREFIX= -P "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/UseJava/ClassFilelist.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YONGDO-HYUN\DESKTOP\PROJECT-TICK\PROJT-LAUNCHER\LIBRARIES\LAUNCHER\BUILD\CMAKEFILES\AF4F32E98FEB98673DF79EF436153CEE\NEWLAUNCHLEGACY.JAR.RULE
+setlocal
+cd C:\Users\YongDo-Hyun\Desktop\Project-Tick\ProjT-Launcher\libraries\launcher\build\CMakeFiles\NewLaunchLegacy.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Eclipse Adoptium\jdk-11.0.29.7-hotspot\bin\jar.exe" -cfe C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build/NewLaunchLegacy.jar org.prismlauncher.EntryPoint @java_class_filelist
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -D_JAVA_TARGET_DIR=C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build -D_JAVA_TARGET_OUTPUT_NAME=NewLaunchLegacy.jar -D_JAVA_TARGET_OUTPUT_LINK= -P "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/UseJava/Symlinks.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YONGDO-HYUN\DESKTOP\PROJECT-TICK\PROJT-LAUNCHER\LIBRARIES\LAUNCHER\BUILD\CMAKEFILES\9BB79E800B61974C2240CE2A1F159B44\NEWLAUNCHLEGACY.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YONGDO-HYUN\DESKTOP\PROJECT-TICK\PROJT-LAUNCHER\LIBRARIES\LAUNCHER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher -BC:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build --check-stamp-file C:/Users/YongDo-Hyun/Desktop/Project-Tick/ProjT-Launcher/libraries/launcher/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
